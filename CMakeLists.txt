@@ -3,4 +3,6 @@ project(FreeDB)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(FreeDB main.cpp)
+file(GLOB_RECURSE SRCS src/*)
+
+add_executable(FreeDB ${SRCS})
