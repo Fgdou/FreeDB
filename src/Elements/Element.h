@@ -5,10 +5,11 @@
 #ifndef FREEDB_ELEMENT_H
 #define FREEDB_ELEMENT_H
 
+namespace FreeDB {
+    class Element {
 
-class Element {
-
-};
+    };
+}
 
 
 #endif //FREEDB_ELEMENT_H
