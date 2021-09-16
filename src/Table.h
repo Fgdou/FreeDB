@@ -23,6 +23,10 @@ namespace FreeDB {
         void clear();
         void remove();
 
+        void save();
+
+        int getNextId();
+
         ~Table();
     private:
 
